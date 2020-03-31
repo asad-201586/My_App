@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/corona_image_three"
+    android:padding="20dp"
+     >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prevention"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/better"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:background="@drawable/oval"
+        android:layout_marginTop="35dp"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:background="@drawable/oval"
+        android:layout_marginTop="40dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/usingFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usingFacebook"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+
+        />
+
+    <ImageButton
+        android:layout_marginLeft="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/facebook_logo"
+        android:scaleType="fitXY"
+        android:background="@null"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

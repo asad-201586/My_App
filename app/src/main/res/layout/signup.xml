@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/corona_image_three">
+
+<LinearLayout
+    android:id="@+id/signupId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+
+
+        <EditText
+            android:id="@+id/first_name_edittex"
+            style="@style/editTex"
+            android:inputType="text"
+            android:hint="@string/firstName"
+            />
+
+
+
+        <EditText
+            android:id="@+id/last_name_edittex"
+            style="@style/editTex"
+            android:inputType="text"
+            android:hint="@string/lastName"
+            />
+
+
+
+        <EditText
+            android:id="@+id/mobile_number_edittex"
+            style="@style/editTex"
+            android:inputType="numberDecimal"
+            android:hint="Mobile number(optional)"
+            />
+
+
+
+        <EditText
+            android:id="@+id/email_edittex"
+            style="@style/editTex"
+            android:inputType="text"
+            android:hint="@string/email"
+            />
+
+
+
+        <EditText
+            android:id="@+id/district_edittex"
+            style="@style/editTex"
+            android:inputType="text"
+            android:hint="@string/district"
+            />
+
+
+
+        <EditText
+            android:id="@+id/new_password_edittex"
+            style="@style/editTex"
+            android:inputType="textPassword"
+            android:hint="@string/newPassword"
+            />
+
+
+
+        <EditText
+            android:id="@+id/retype_password_edittex"
+            style="@style/editTex"
+            android:inputType="textPassword"
+            android:hint="@string/retypePassword"
+            />
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:background="@drawable/oval"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

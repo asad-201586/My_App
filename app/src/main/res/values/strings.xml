@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ChatbotForCorona</string>
+    <string name="welcome">Welcome to chatbot</string>
+    <string name="thatWill">That will help you to prevent</string>
+    <string name="coronaVirus">Corona Virus</string>
+    <string name="startChat">Stay Home Be Safe</string>
+    <string name="prevention">Prevention is</string>
+    <string name="better">better than cure"</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="mobileNumber">Mobile number</string>
+    <string name="email">Email</string>
+    <string name="district">District</string>
+    <string name="newPassword">New password</string>
+    <string name="retypePassword">Retype password</string>
+    <string name="send">send</string>
+    <string name="appName">Corona Chatbot</string>
+    <string name="password">Password</string>
+    <string name="usingFacebook">signup using?</string>
+    <string name="create_account">create account</string>
+
+
+</resources>

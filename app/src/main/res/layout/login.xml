@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/corona_image_three">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+
+
+        <EditText
+            android:id="@+id/emailEdittexId"
+            style="@style/editTex"
+            android:hint="@string/email"
+            android:inputType="text"
+            android:backgroundTint="@color/startChat"
+            />
+
+
+        <EditText
+            android:id="@+id/passwordEdittexId"
+            style="@style/editTex"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/startChat"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:textSize="27sp"
+        android:textColor="#ffff"
+        android:background="@drawable/oval"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
